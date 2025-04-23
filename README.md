@@ -96,7 +96,7 @@ This project demonstrates how to build a **real-time analytics solution** using 
 - Send real-time data to Power BI for dynamic visualization
 - Integrate multiple Azure services for an end-to-end analytics solution
 
-👤 Yazar
+👤 Author
 Sefa Öztürk
 
 IT Trainee | Azure Data Engineer in progress
