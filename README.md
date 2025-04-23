@@ -30,6 +30,7 @@ This project demonstrates how to build a **real-time analytics solution** using 
 - Git and Node.js available in Azure Cloud Shell
 
 ---
+
 ### Azure Resources Setup
  - The script provisions the following:
  - Azure Synapse workspace
