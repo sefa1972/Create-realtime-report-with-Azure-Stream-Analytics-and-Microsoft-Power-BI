@@ -29,16 +29,7 @@ This project demonstrates how to build a **real-time analytics solution** using 
 - Microsoft Power BI (Pro or Trial account)
 - Git and Node.js available in Azure Cloud Shell
 
-### Clone the Exercise Files
-
-Open [Azure Cloud Shell](https://portal.azure.com) and run:
-```powershell
-rm -r dp-203 -f
-git clone https://github.com/MicrosoftLearning/dp-203-azure-data-engineer dp-203
-cd dp-203/Allfiles/labs/19
-./setup.ps1
-
-------------
+---
 ### Azure Resources Setup
  - The script provisions the following:
  - Azure Synapse workspace
