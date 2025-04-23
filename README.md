@@ -50,17 +50,26 @@ This project demonstrates how to build a **real-time analytics solution** using 
   Sample Query:
 
   SELECT
+  
       DateAdd(second,-5,System.TimeStamp) AS StartTime,
+      
       System.TimeStamp AS EndTime,
+      
       ProductID,
+      
       SUM(Quantity) AS Orders
+      
   INTO
+  
       [powerbi-dataset]
+      
   FROM
+  
       [orders] TIMESTAMP BY EventEnqueuedUtcTime
+      
   GROUP BY ProductID, TumblingWindow(second, 5)
+  
   HAVING COUNT(*) > 1
----
 
  - Save and start the job
 
