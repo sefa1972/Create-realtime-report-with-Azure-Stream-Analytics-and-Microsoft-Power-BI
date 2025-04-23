@@ -69,6 +69,7 @@ cd dp-203/Allfiles/labs/19
       [orders] TIMESTAMP BY EventEnqueuedUtcTime
   GROUP BY ProductID, TumblingWindow(second, 5)
   HAVING COUNT(*) > 1
+---
 
  - Save and start the job
 
